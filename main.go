@@ -38,8 +38,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	// fmt.Println(typeProject)
-	// os.Stdout.Sync()
 	_, _ = writer.WriteString(typeProject)
 	writer.Flush()
 }
